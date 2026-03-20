@@ -8,7 +8,7 @@ Peut-on affecter une matrice à une autre en Java avec `mat1 = mat2` ?
 
 En Java, **oui**, vous pouvez écrire `mat1 = mat2`, mais cela effectue une **copie de référence**, pas une copie profonde des données. Les deux variables pointeront vers le **même tableau** en mémoire.
 
-![Java reference vs copy](https://docs.github.com/assets/cb-600/mw-1440/images/help/repository/branching.webp)
+![Java array reference vs deep copy](https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/400px-Java_programming_language_logo.svg.png)
 
 ### Exemple 1 : Copie de référence (affectation simple)
 
